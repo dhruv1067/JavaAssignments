@@ -1,0 +1,14 @@
+Ans 1: 0 , 0.0, false, null
+
+Ans 2: No, you cannot pass negative number as Array size.
+
+Ans 3: Array is stored in heap memory in JVM.
+
+Ans 4: It has a fixed size. Contiguous memory is required to store an Array.
+
+Ans 5: An Array without a name or reference is called an Anonymous Array. Ex-> new int[] = {2,3,4,5,6,7}.
+
+Ans 6: for loop, for-each loop.
+
+Ans 7: length variable in an array returns the length or the number of elements stored in an array. 
+	length() returns the length of a string object i.e. number of characters stored in an object
