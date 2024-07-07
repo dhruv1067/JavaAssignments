@@ -1,0 +1,24 @@
+Ans 1: new keyword, new instance, clone() method, deserialization, newInstance() method of constructor class.
+
+Ans 2: It is used to create an instance of an object. It allocates memory to an object and returns a reference to the object created.
+
+Ans 3: Static variables, Instance variables, Local variables.
+
+Ans 4: Instance Variables:
+	Definition: Defined within a class but outside any method, constructor, or block.
+	Scope: Accessible from any method, constructor, or block of the class.
+	Lifetime: Exists for the lifetime of the object; created when the object is 	instantiated and destroyed when the object is destroyed.
+	Initialization: Have default values (e.g., 0 for numbers, false for Booleans, null 	for object references).
+	Memory Allocation: Allocated in the heap when the object is created.
+
+       Local Variables:
+	Definition: Defined within a method, constructor, or block.
+	Scope: Accessible only within the method, constructor, or block where they are declared.
+	Lifetime: Exists only during the execution of the method, constructor, or block; created when the block is entered and destroyed when it is exited.
+	Initialization: Must be explicitly initialized before use; do not have default values.
+	Memory Allocation: Allocated on the stack when the method is called.
+
+Ans 5: Instance variables are allocated in heap area and local variables in stack area.
+
+Ans 6: Method overloading in Java is a feature that allows a class to have multiple methods with the same name but different parameters. 
+
