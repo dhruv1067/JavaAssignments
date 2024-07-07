@@ -1,0 +1,15 @@
+Ans 1: Git is a distributed version control system (VCS) designed to handle everything from small to very large projects with speed and efficiency. Git allows multiple developers to work on a project simultaneously without overwriting each other's changes and provides tools for merging code changes, tracking history, and collaboration.
+
+Ans 2: In order to invoke a specific version later, if necessary, a version control system(VCS) keeps track of all the changes made to a file or a group of data. 
+
+Ans 3: GitHub uses Git to offer internet hosting for version control and software development.
+
+Ans 4: GitHub, GitLab, BitBucket
+
+Ans 5: Local VCS , Centralized VCS , Distributed VCS
+
+Ans 6: Data replication, service with high availability, collaboration is simple and easy 
+
+Ans 7: It describes the location where all Git files are kept.
+
+Ans 8: git init command
