@@ -1,0 +1,75 @@
+****************** Computer Basics **************
+
+
+Ans 1 : Computer is an electronic device for storing and processing data, typically in binary    form, according to instructions given to it in a variable program. 
+
+Ans 2 : RAM which stands for Random Access Memory, is a hardware device generally located on the motherboard of a computer and acts as an internal memory of the CPU. It allows CPU to store data, program, and program results when you switch on the computer.
+
+Ans 3 : CPU
+
+Ans 4 : Keyboard
+
+Ans 5 : Output devices are : Monitor, Printer, etc.
+
+Ans 6 : Mouse
+
+Ans 7 : Machine Language or machine code, is a low-level language composed of binary digits.
+
+Ans 8 : input devices are : Keyboard, mouse, Joystick..
+
+
+
+
+******************* Fundamentals of Java *************************
+
+
+Ans 1: A programming language is a formal set of instructions that can be used to produce various kinds of output, particularly to control the behavior of a machine, typically a computer.
+
+Ans 2 : Programming languages are crucial for transforming human logic into executable computer programs, enhancing productivity, reducing errors, enabling collaboration, and fostering innovation across various domains and industries.
+
+Ans 3 : Features of Java are -> Platform Independent, Object-Oriented, Robust and Secure, High Performance, Multithreading, Rich Standard Library, Distributed computing, Dynamic and Extensible, Ease of use, Community support ,and Scalability & Maintainability.
+
+Ans 4 : An object is an entity with state and behaviour, such as a chair, bike, marker, pen, table, or car. It could be intellectual or physical. The banking system is an illustration of an intangible entity.
+
+Ans 5 : A class is a collection of items with similar characteristics. It serves as a model or blueprint from which things can be made. It makes sense as a whole. It cannot be bodily.
+
+Ans 6 : The main () is the starting point for JVM to start execution of a Java program. Without the main () method, JVM will not execute the program. The syntax of the main () method is: public: It is an access specifier. We should use a public keyword before the main () method so that JVM can identify the execution point of the program.
+
+public: An access specifier, that is. Before calling the main() method, we need to use the public keyword to let the JVM know where the programme is actually being executed. Before the main() method, if we use private, protected, and default, the JVM won't be able to see it.
+
+static: You can make a method static by using the keyword static. We should call the main() method without creating an object. Static methods are the method which is invoked without creating the objects, so we do not need any object to call the main() method.
+
+void: In Java, every method has the return type. Void keyword acknowledges the compiler that the main() method does not return any value.
+
+main(): It is a default signature which is predefined in the JVM. It is called by JVM to execute a program line by line and end the execution after completion of this method. We can also overload the main() method.
+
+String args[]: The main() method also accepts some data from the user. It accepts a group of strings, which is called a string array. It is used to hold the command line arguments in the form of string values.
+
+
+
+****************** Java variables & Data types **************************
+
+Ans 1 : Statically typed: if the memory of the variable is given during the compilation time itself then such types of programming languages are called as “Statically typed”.
+Eg: C,C++,Java
+Dynamically typed: If the memory of the variable is given during the execution time itself then such types of programming languages are called as “dynamically typed”.
+Eg: Python, PHP, JavaScript.
+
+Ans 2 : In Java, a variable is a named storage location in memory that holds a value of a specific type. Variables are used to store data that can be manipulated and retrieved throughout the program. Each variable in Java must be declared with a data type, which determines the kind of values it can hold.
+
+Ans 3 : We use assign operator (=) to assign a value to a variable.
+
+Ans 4 : byte, short, int, long, float, double, char, String, Boolean.
+
+Ans 5 : Identifiers in Java are symbolic names used for identification. They can be a class name, variable name, method name, package name, constant name, and more. However, In Java , There are some reserved words that can not be used as an identifier.
+
+Ans 6 : Operators in Java ->
+ Arithmetic Operator 
+ Relational Operator
+ Logical Operator
+ Assignment Operator
+ Unary Operator
+ Bitwise Operators
+
+Ans 7 : Increment and Decrement Operators in Java are used to increase or decrease the value by 1. For example, Incremental operator ++ is useful to increase the existing variable value by 1 (i = i + 1). Moreover, the decrement operator – – is useful to decrease or subtract the current value by 1 (i = i – 1). The syntax of both increment and decrement operators in Java Programming to prefix or postfix is
+Increment Operator : ++x or x++
+Decrement Operator : --x or x--
