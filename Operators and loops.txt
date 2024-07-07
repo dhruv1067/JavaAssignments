@@ -1,0 +1,36 @@
+Ans 1 : Conditional operators in Java, also known as relational or comparison operators, are used to compare two values and determine the relationship between them. The result of these comparisons is a Boolean value ('true' or 'false'). Conditional operators are essential for controlling the flow of a program, such as in 'if' statements, 'loops', and ternary operations.
+
+Ans 2 : Unary operator, binary operator, Ternary operator.
+
+Ans 3 : The switch case in java is used to select one of many code blocks for execution.
+
+Ans 4 : There are two priority levels -> High priority */%  and Low priority +-
+
+Ans 5 : 1> if to specify a block of code to be executed, if a specialized condition is true
+        2> else to specify a block of code to be executed, if the same condition is false
+        3> else if to specify a new condition to test, if the first condition is false
+        4> switch to specify many alternative blocks of code to executed
+
+Ans 6 : if (condition1) {
+    // block of code to be executed if condition1 is true
+} else if (condition2) {
+    // block of code to be executed if condition2 is true
+} else {
+    // block of code to be executed if none of the above conditions are true
+}
+
+Ans 7 : for loop, while loop, do-while loop.
+
+Ans 8 : For loop -> executed once the condition is checked, entry controlled loop
+        Do-while loop -> condition is checked after the statement is executed , exit controlled loop.
+
+Ans 8 : public class Numbers
+        {
+            public static void main(String[] args)
+            {
+		for(int i=1; i<=10; i++)
+		{
+			System.out.println(i);
+		}
+	    }
+	}
