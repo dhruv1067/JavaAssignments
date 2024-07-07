@@ -1,0 +1,16 @@
+Ans 1: git --version
+
+Ans 2: git init project , cd project
+
+Ans 3: git config --global user.name"<name>"
+       git config --global user.email"<email>"
+
+Ans 4: git add<file>
+
+Ans 5: git reset Head--<file>
+
+Ans 6: git commit -m"Commit message"
+
+Ans 7: git push
+
+Ans 8: The clone command in git is used when you want to download an existing git repository to your local computer. git pull is used when one want to make changes or updates done by another developer/team member on a git repository, you have to use git pull.
