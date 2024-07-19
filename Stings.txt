@@ -1,0 +1,154 @@
+*************************************************************************************
+Ans 1: String is a sequence of characters. But in Java, string is an object that represents a sequence of characters. The java.lang.String class is used to create a string object.
+
+Ans 2:  In java Strings are classified into 2 types
+	Mutable String
+	Immutable String
+
+Ans 3: There are two ways to create string objects in Java. One is using a new operator and another one is using string literals. The objects created using the new operator are stored in the heap memory and objects created using string literals are stored in the string constant pool. 
+
+Ans 4: String objects are the most commonly used data objects in Java. Hence, Java has a special arrangement to store the string objects. String Constant Pool is one such arrangement. String Constant Pool is the heap memory space dedicated to storing string objects created with string literals. In the String Constant Pool, there will be no two string objects with the same content. When you use a string literal to create a string object, JVM first checks the object's content. If there is an object in the string constant pool with the same content, then it returns the reference to that object. It doesn’t create a new object. If the content differs from the existing objects, nonevent is generated.
+
+Ans 5:  Immutable objects are like constants. You can’t modify them once they are created. They are final in nature. Whereas mutable objects are concerned, you can perform modifications on them.
+
+Ans 6:  Inside the heap memory. JVM reserves some part of the heap memory to store string objects created using string literals. In Java, strings are special. String types receive special treatment in Java that other types do not. For example, to create the string objects, you do not need to use the "new"‘ keyword. Whereas to create other types of objects, you have to use the "new" keyword. Like this, strings enjoy some special attention from Java. This attention is worth the while, because the strings are used almost everywhere while developing any kind of application.
+
+*********************************************************************************************
+
+Ans 1: The String class is immutable, which means that once a String object is created, its value cannot be changed. However, there are other classes in Java, such as StringBuilder and 
+StringBuffer, which are mutable and can be used to manipulate strings. 
+
+Ans 2:  class StringReverser { 
+         public static void main(String[] args) { 
+              String str = "PWSKILLS"; 
+              String result = reverseString(str); 
+              System.out.println("The original string is: " + str); 
+              System.out.println("The reversed string is: " + result); 
+         }
+
+         public static String reverseString(String str) { 
+              StringBuilder sb = new StringBuilder(str); 
+              sb.reverse(); 
+              return sb.toString(); 
+         } 
+} 
+
+Ans 3:  class SentenceReverser1 { 
+          public static void main(String[] args) { 
+                             String str1="Think Twice"; 
+                             String str2=""; 
+                             String sarr[]=str1.split(" "); 
+                             for(String elem: sarr) 
+                             { 
+                                         for(int i=elem.length()-1;i>=0;i--) 
+                                         { 
+                                                      str2=str2+elem.charAt(i); 
+                                          } 
+                                          str2=str2 +" "; 
+                             } 
+                             System.out.println(str2); 
+               } 
+}
+
+Ans 4:  import java.util.Arrays; 
+           class SortingOrder { 
+          static void sortString(String str) { 
+         char []arr = str.toCharArray(); 
+         Arrays.sort(arr); 
+         System.out.print(String.valueOf(arr)); 
+            } 
+            public static void main(String[] args) { 
+            String s = "aabbzzncedt"; 
+            sortString(s); 
+            } 
+          }
+
+*******************************************************************************************
+
+Ans 1:  import java.util.Scanner; 
+                  class Ans{ 
+                  public static void main(String[] args){ 
+                  Scanner s = new Scanner(System.in); 
+                  String a = s.next(); 
+                  System.out.println(a); 
+                  } 
+         }
+
+Ans 2:  You can concatenate two strings in Java using the + operator: 
+	String str1 = "Hello"; 
+	String str2 = "World"; 
+	String str3 = str1 + str2;
+
+Ans 3:  The length of a string in Java can be found using the length()  method: 
+	String str = "example"; 
+	int length = str.length();
+
+Ans 4:  Two strings in Java can be compared using the equals() method: 
+	String str1 = "Hello"; 
+	String str2 = "Hello"; 
+	if (str1.equals(str2)) 
+	{ 
+  		System.out.println("The strings are equal"); 
+	} 
+	else 
+	{ 
+  		System.out.println("The strings are not equal"); 
+	}
+
+Ans 5:  class Ans{ 
+                     public static void main(String[] args){ 
+                     String a = "refrigerator"; 
+                     System.out.println(a.length()); 
+                     } 
+          }
+
+Ans 6: class Ans{ 
+         public static void main(String[] args){ 
+         String a = "Umbrella"; 
+         boolean per = false; 
+                    for(int i = 0;i<a.length();i++){ 
+                    if(a.charAt(i) == 'e'){ 
+                    per=true; 
+                    break; 
+                    } 
+         } 
+                    System.out.println(per); 
+                    } 
+         }
+
+Ans 7:  import java.util.Scanner; 
+class delete 
+{ 
+   public static void main(String args[])
+
+   { 
+   String s; 
+   int j=0; 
+   System.out.println("Enter a string"); 
+   Scanner so=new Scanner(System.in); 
+   s= so.nextLine(); 
+   char ch[]=new char[20]; 
+   for(int i=0;i<s.length();i++) 
+   { 
+          if(s.charAt(i)=='a'||s.charAt(i)=='A'||s.charAt(i)=='e'|| 
+          s.charAt(i)=='E'||s.charAt(i)=='i'||s.charAt(i)=='I'||s.charAt(i)=='o'|| 
+          s.charAt(i)=='O'||s.charAt(i)=='U'|| s.charAt(i)=='u') 
+   { 
+   ch[j++]=s.charAt(i); 
+   } 
+        else 
+        { 
+        continue; 
+        } 
+   } 
+    for(int i=0;i<j;i++) 
+    { 
+	System.out.print(ch[i]); 
+  
+    } 
+	System.out.println();
+    } 
+}
+
+*******************************************************************************************
+     
