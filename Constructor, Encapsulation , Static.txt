@@ -1,0 +1,84 @@
+********************************* Constructor ********************************************
+
+Ans 1:  Constructors are used to initialize the object’s state. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at time of Object creation.
+
+Ans 2: : Constructor Chaining is a technique of calling another constructor from one constructor. this() is used to call the same class constructor whereas super() is used to call super class constructor.
+
+Ans 3: No. There is no way in java to call a subclass constructor from a superclass constructor.
+
+Ans 4: Ideally, Constructor must not have a return type. By definition, if a method has a return type, it’s not a constructor.(JLS8.8 Declaration) It will be treated as a normal method. But compiler gives a warning saying that method has a constructor name.
+
+Ans 5:  Constructor without arguments is called a no-arg constructor.
+
+Ans 6:  If a class contains no constructor declarations, then a default constructor with no formal parameters and no throws clause is implicitly declared. If the class being declared is the primordial class Object, then the default constructor has an empty body. Otherwise, the default constructor simply invokes the superclass constructor with no arguments. 
+
+Ans 7: Sometimes there is a need to initialize an object in different ways. This can be done using constructor overloading. Different constructors can do different work by implementing different lines of code and are called based on the type and no of parameters passed. According to the situation , a constructor is called with a specific number of parameters among overloaded constructors.
+
+Ans 8: For every java class constructor concept is applicable. If we don't write any constructor, then the compiler will generate a default constructor. If we write at least one constructor then the compiler won't generate any default constructor, so we say every java class will have a compiler generated default constructor or programmer written constructor but not both simultaneously. 
+
+*************************** Encapsulation *************************************************
+
+Ans 1: The process of binding data and corresponding methods (behaviour) together into a single unit is called encapsulation in Java. In other words, encapsulation is a programming technique that binds the class members (variables and methods) together and prevents them from being accessed by other classes, thereby we can keep variables and methods safe from outside interference and misuse. If a field is declared private in the class then it cannot be accessed by anyone outside the class and hides the fields within the class. Therefore, Encapsulation is also called data hiding.
+
+Ans 2:  Encapsulation is a key concept in object-oriented programming (OOP) that involves combining data and methods within a single unit known as a class. Here are some important 
+features of encapsulation:
+ Data Hiding
+ Abstraction
+ Access Control
+ Data Integrity
+ Modularity
+
+Ans 3: Getter and setter methods, also known as accessor and mutator methods, are used in Java to access and modify the private data members of a class, respectively. They provide a layer of abstraction that allows us to control the access to the data and enforce constraints on the data as needed. 
+
+Ans 5: The encapsulated code is more flexible and easy to change with new requirements. It prevents the other classes from accessing the private fields. Encapsulation allows modifying implemented code without breaking other code who have implemented the code. It keeps the data and codes safe from external inheritance. Thus, Encapsulation helps to achieve security. It improves the maintainability of the application.
+
+Ans 6:  Encapsulation is achieved in Java by declaring the instance variables of a class as private, and providing public getter and setter methods to access and modify the values of these variables. This allows us to control access to the data and ensure that it can only be modified through the methods of the class, rather than directly accessing the instance variables from outside the class. 
+
+*********************************** Static Keyword ****************************************
+
+Ans 1: The static keyword in Java is used to indicate that a member belongs to a class rather than an instance of a class. This means that the member can be accessed without having to create an instance of the class.
+ Here are some common uses of static in Java:
+ To create class-level variables that are shared by all instances of a class.
+ To create class-level methods that can be called without creating an instance of a class.
+ To create a block of code that is executed when a class is loaded.
+ In general, static is used to create class-level members that are independent of any specific 
+instance of a class and can be accessed without creating an instance of the class.
+ In Java, static is a keyword that is used for memory management mainly. Static means single 
+copy storage for variables or methods.
+ The members that are marked with the static keyword inside a class are called static members.
+
+Ans 2: In Java, classloading is the process of loading class files into the JVM (Java Virtual machine) at runtime. It is responsible for loading classes from various sources, such as the file system, network, and databases, and making them available to the JVM for execution. The class loading process in Java is divided into three phases: loading, linking, and initialization.
+	Loading: In the loading phase, the classloader locates the class file using the fully qualified class name, reads the class file, and converts it into a Class object. The Class object contains the metadata of the class, such as the fields, methods, and constructors.
+	Linking: In the linking phase, the JVM performs several operations on the Class object, such as verifying the class file's integrity, resolving symbolic references, and allocating memory for the class variables.
+	Initialization: In the initialization phase, the JVM initializes the class variables with their default values, and runs the class's static initialization block (if any).
+
+Ans 3:  No, we cannot mark a local variable with a static keyword.
+
+Ans 4:  A static method is also called a class method because it ties to a class rather than an individual instance of a class. Therefore, we need not to create an object of the class to call and execute a static method.
+
+Ans 5: When the dot class file is loaded into memory, a static block is executed. After executing the static block, JVM calls the main method to start execution. Therefore, the static block is executed before the main method.
+
+Ans 6:  The static keyword in Java is used to indicate that a member belongs to a class rather than an instance of a class. This means that the member can be accessed without having to create an instance of the class. Here is an example that demonstrates the use of the static keyword in Java: 
+public class Counter { 
+private static int count = 0;
+
+ public Counter() { 
+count++; 
+} 
+public static int getCount() { 
+return count; 
+} 
+} 
+
+Ans 7:  A static variable is also called a class variable whereas an instance variable is also called a non static variable. Class variables can be accessed inside a static block, instance block, static method, instance method, and method of the inner class whereas, instance variable can be accessed only inside the instance members, and method of the inner class. Class variable is always resolved during compile time whereas, instance variable is resolved during the runtime. Static variables cannot be serialized in Java whereas instance variables can be serialized.
+
+Ans 8:  static
+ These variables are called “class variables”.
+ These variables will get memory in the method area.
+ If the value does not change from object to object then we need to use static variables.
+ Inside a static area we can access static variables only.
+ Static variables are created using static keywords. 
+Non-static
+ These variables are called “instance variables”.
+ These variables will get memory in the heap area.
+ If the value changes from object to object then we need to use “non-static” variables.
