@@ -1,0 +1,40 @@
+Ans 1: import java.time.*; 
+	public class DateTime { 
+		public static void main(String[] args) { 
+			LocalDate date = LocalDate.now(); 
+			System.out.println(date); 
+			LocalTime time=LocalTime.now(); 
+			System.out.println(time); 
+		} 
+	}
+
+Ans 2: import java.time.LocalDate;
+		import java.time.format.DateTimeFormatter;
+ 		public class DateToString {
+ 			public static void main(String[] args) {
+ 				LocalDate date = LocalDate.of(2023, 4, 4);
+				DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
+ 				String formattedDate = date.format(formatter);
+ 				System.out.println("Formatted Date: " + formattedDate);
+
+			 }
+ 		}
+ 
+
+Ans 3: Streams: it doesn't store data, it operates on the source data structure. They use functional interfaces like lambda which makes it good fir for programming languages. Java streams are consumable i.e; to traverse the stream, it needs to be created every time. Java streams support both sequential and parallel processing. Streams are iterated internally by just mentioning the operations.
+
+Collections: It stores/holds all the data that the data structure currently has in a particular data structure like Set, List or Map. They don't use functional interfaces. They are non-consumable. It supports parallel processing as it can be very helpful in achieving high performance. Collections are iterated externally using loops. 
+
+Ans 4: We can use enum to define a group of named constants. Enums are used to represent a collection of related constants that have a common purpose. Each constant in an enum is an instance of the enum type, and they are typically defined as public static final fields.
+
+Ans 5:  built-in annotations in Java:
+ @Override 
+ @Deprecated
+ @SuppressWarnings
+ @FunctionalInterface
+ @Retention
+ @Target 
+ @Documented 
+ @Inherited 
+These built-in annotations in Java are used to provide additional information to the Java compiler and other tools. They help improve code readability, maintainability, and safety by enforcing specific rules and behaviours in Java code.
+
