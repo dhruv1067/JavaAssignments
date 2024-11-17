@@ -1,0 +1,53 @@
+******************************** Exception Handling *************************************
+
+Ans 1: In any programming language we categorise errors into 2 types
+ 1. Syntax Error/Compile Time Mistakes - It refers to the mistakes done by the programmer with respect to syntax.
+ 2. Logical Error/Run Time Mistakes - It refers to the mistakes done by the programmer in terms of writing a logic
+
+Ans 2:  An unwanted/expected event that disturbs the normal flow of execution of a program is called "Exception handling" . The main objective of Exception handling is to handle the exception . It is available for graceful termination of program.
+
+Ans 3: Exception handling can be performed using:
+ Try: the set of statements or code which requires monitoring for an exception is kept under this block.
+ Catch: this block catches all exceptions that were trapped in the try block.
+ Finally: this block is always performed irrespective of the catching of exceptions in the try or catch block.
+
+Ans 4: : If there is no try and catch block while an exception occurs, the program will terminate. Exception handling ensures the smooth running of a program without program termination.
+
+Ans 5: Errors typically happen while an application is running. For instance, Out of Memory Error occurs in case the JVM runs out of memory. On the other hand, exceptions are mainly caused by the application. For instance, Null Pointer Exception happens when an app tries to get through a null object.
+
+Ans 6: Based on handling by JVM, there are typically two types of exceptions in Java:
+ Checked: Occur during the compilation. Here, the compiler checks whether the exception is handled and throws an error accordingly.
+ Unchecked: Occur during program execution. These are not detectable during the compilation process.
+
+Ans 7: No, doing so will show a compilation error. Catch or finally block must always accompany try block. We can remove either finally block or catch block, but never both.
+
+
+*********************************** Lambda expression *************************************
+
+Ans 1:  As its name suggests it's an expression which allows you to write more succinct code in Java 8. For example (a, b) -> a + b is a lambda expression (look for that arrow ->) .  It's also called an anonymous function because you are essentially writing the code you write in function but 
+without name.
+
+Ans 2:  Yes, you can pass a lambda expression to a method provided it is expecting a functional interface. For example, if a method is accepting a Runnable, Comparable or Comparator then you can pass a lambda expression to it because all these are functional interfaces in Java 8.
+
+Ans 3: : A functional interface in Java 8 is an interface with a single abstract method. For example, Comparator which has just one abstract method called compare() or Runnable which has just one abstract method called run(). There are many more general purpose functional interfaces introduced in JDK on java.util.function package. They are also annotated with @FunctionalInterface but that's optional
+
+Ans 4:  The main benefit of lambda expression in Java 8 is that now it's easier to pass a code block to a method. Earlier, the only way to do this was wrapping the code inside an Anonymous class, which requires a lot of boilerplate code
+
+Ans 5: : No, it's not mandatory for a lambda expression to have parameters, you can define a lambda expression without parameters as shown below:
+ () -> System.out.println("lambdas without parameter");
+ You can pass this code to any method which accepts a functional interface. 
+
+
+************************************* Interface ***************************************
+
+Ans 1:  An interface in Java is a mechanism that is used to achieve complete abstraction. It is basically a kind of class that contains only constants and abstract methods.
+
+Ans 2:  Only abstract and public modifiers are allowed for methods in interfaces.
+
+Ans 3:  There are many reasons to use interfaces in java. They are as follows:
+ a.  An interface is used to achieve full abstraction.
+ b.  Using interfaces is the best way to expose our project’s API to some other project.
+ c.  Programmers use interfaces to customise features of software differently for different objects.
+ d.  By using interface, we can achieve the functionality of multiple inheritance.
+
+
