@@ -1,0 +1,51 @@
+**************************** Generics ************************************************
+
+Ans 1: Generics in Java are used to provide type safety and reduce code redundancy by allowing the use of generic types. It allows classes, methods, and interfaces to be written generically, without specifying the type of data being used.
+
+Ans 2: The benefits of using Generics in Java are:
+ Type safety
+ Code reusability
+ Improved readability
+ Reduced code redundancy
+ Improved performance
+
+Ans 3:  A Generic Class in Java is a class that can work with different types of data. It is defined using a type parameter enclosed in angle brackets, which represents the type of data being used.
+
+Ans 4:  A Type Parameter in Java Generics is a placeholder for the type of data that is used by a generic class or method. It is defined using a single uppercase letter enclosed in angle brackets, such as <T> or <E>.
+
+Ans 5: A Generic Method in Java is a method that can work with different types of data. It is defined using a type parameter enclosed in angle brackets, which represents the type of data being used.
+
+Ans 6: ArrayList is a non-generic class, while ArrayList<T> is a generic class. ArrayList<T> provides type safety, as it can only store elements of the specified type, whereas ArrayList can store any type of element.
+
+
+*************************************** File Handling ***********************************
+
+Ans 1:  A stream can be defined as a sequence of data. The InputStream is used to read data from a source and the OutputStream is used for writing data to a destination.
+
+Ans 2:  write() - writes the specified byte to the output stream
+ write(byte[] array) - writes the bytes from the specified array to the output stream
+ flush() - forces to write all data present in the output stream to the destination
+ close() - closes the output stream
+
+Ans 3:  Serialization is the process of converting an object into a stream of bytes to transfer it over a network or to store it in a file or database. In Java, serialization is done by implementing the Serializable interface.
+
+Ans 4:  The Serializable interface in Java is a marker interface that has no methods. It is used to mark classes that can be serialized, meaning their object instances can be converted into a stream of bytes.
+
+Ans 5:  Deserialization is the process of converting a stream of bytes back into an object instance. This is done after an object has been serialized.
+
+Ans 6: Serialization is achieved in Java by implementing the Serializable interface. When an object is serialized, its state is converted into a stream of bytes, which can then be transferred over a network or stored in a file or database.
+
+Ans 7:  Deserialization is achieved in Java by reading a stream of bytes and using them to recreate the original object instance. This is done by calling the readObject() method of an ObjectInputStream instance.
+
+Ans 8:  Mark member variables as static or transient, and those member variables will no more be a part of Serialization.
+
+Ans 9:  The following classes are available in the Java IO API and are important to work with files in Java.
+ File
+ RandomAccessFile
+ FileInputStream
+ FileReader
+ FileOutputStream
+ FileWriter
+
+Ans 10: Serializable: It is marker interface and it doesn't have any method.
+Externalizable : It's not a marker interface. 
